@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: chat-gw-scaleout-poc
+
+server:
+  port: 8080
+
+chatgw:
+  session:
+    idle-timeout: 5m # 무응답 세션 만료 시간
